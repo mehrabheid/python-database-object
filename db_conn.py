@@ -7,6 +7,6 @@ class DBconn:
                                         database='your_database_name',
                                         user='your_MySQL_user',
                                         password='your_MySQL_user_password',
-                                        auth_plugin='mySQL_auth_plugin #optional')
+                                        auth_plugin='mysql_native_password #optional ')
                                         
         self.cursor = self.connection.cursor()
